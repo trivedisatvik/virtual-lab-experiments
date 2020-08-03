@@ -1,0 +1,11 @@
+.div-wrapper {
+    position: relative;
+    height: 700px;
+    width: 100px;
+}
+
+.div-wrapper img {
+    position:static;
+    margin-bottom: auto;
+    right: auto;
+}

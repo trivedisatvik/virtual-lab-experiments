@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test-1</title>
+	<style>
+		form{
+			font-size: 1.2rem;
+			font-weight: 600;
+		}
+	</style>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="sidenav.css">
+</head>
+<body>
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+
+		<a class="navbar-brand" href="#">Virtual Lab</a>
+
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<!-- This is the actual code that creates the "hamburger icon" -->
+		<!-- The data-target grabs ids to put into the icon -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+
+		<!-- Anything inside of collapse navbar-collapse goes into the "hamburger" -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<div class="navbar-nav">
+
+				<!-- the span class "sr-only" tells screen readers that Home is the active link, for accessibility -->
+				<a class="nav-item nav-link active" href="Project11.html">Introduction</a>
+				<a class="nav-item nav-link" href="objective.html">Objective</a>
+
+				<!-- DROPDOWN MENU -->
+				<div class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown-menu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						List Of Experiments
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbar-dropdown-menu">
+						<a class="dropdown-item" href="exp1.html">Basic Structure Of an HTML Document</a>
+						<a class="dropdown-item" href="exp2.html">Working with hyperlinks, tables and multimedia</a>
+						<a class="dropdown-item" href="exp3.html">Working with Forms and Controls</a>
+
+						<!-- Use this to separate a new link: -->
+
+					</div>
+				</div>
+
+				<a class="nav-item nav-link" href="feedback.html">Feedback</a>
+
+
+
+			</div>
+		</div> <!-- /.navbar-collapse -->
+	</nav>
+
+	<div class="sidebar">
+<a class="active" href="#home">Aim:</a>
+<a class="" href="exp1.html">Aim:</a>
+<a href="theory1.html">Theory</a>
+<a href="procedure1.html">Procedure</a>
+<a href="simulator1.html">Simulation</a>
+<a class"active" href="test1.html">Test</a>
+<a href="reference1.html">References</a>
+</div>
+<div class="container">
+	<div class="jumbotron">
+
+		<p></p>
+		<h1>Test Your Knowledge</h1>
+  <form>
+
+  		<br><br>
+  		<p>1. Which tags are used to underline and bolden a text?</p>
+  		<input type="radio" id="other" name="gender" value="other">
+  		<label for="female"> &lt li &gt,&lt b &gt </label><br>
+  		<input type="radio" id="other" name="gender" value="other">
+  		<label for="other"> &lt b &gt,&lt u &gt</label><br>
+  		<input type="radio" id="other" name="gender" value="other">
+  		<label for="female"> &lt u &gt,&lt b &gt </label><br>
+  		<input type="radio" id="other" name="gender" value="other">
+  		<label for="other"> &lt u &gt,&lt i &gt</label><br>
+
+
+  		<p>2. Which one is not the browser ? </p>
+  		<input type="radio" id="other" name="gender1" value="other1">
+  		<label for="female"> Netscape </label><br>
+  		<input type="radio" id="other" name="gender1" value="other1">
+  		<label for="other"> Opera</label><br>
+  		<input type="radio" id="other" name="gender1" value="other1">
+  		<label for="female"> Windows 10</label><br>
+  		<input type="radio" id="other" name="gender1" value="other1">
+  		<label for="other"> Chrome</label><br>
+
+
+  		<p>3. How to italicize a line in a paragraph?  </p>
+  		<input type="radio" id="other" name="gender2" value="other2">
+  		<label for="female"> By using &lt u &gt tag</label><br>
+  		<input type="radio" id="other" name="gender2" value="other2">
+  		<label for="other"> By using &lt ul &gt tag </label><br>
+  		<input type="radio" id="other" name="gender2" value="other2">
+  		<label for="female"> By using &lt b &gt tag</label><br>
+  		<input type="radio" id="other" name="gender2" value="other2">
+  		<label for="other"> By using &lt i &gt tag</label><br>
+
+
+
+  		<p>4. Which list contains numbers by default?  </p>
+  		<input type="radio" id="other" name="gender3" value="other3">
+  		<label for="female"> &lt ul &gt </label><br>
+  		<input type="radio" id="other" name="gender3" value="other3">
+  		<label for="other">&lt ol &gt</label><br>
+  		<input type="radio" id="other" name="gender3" value="other3">
+  		<label for="female"> Both</label><br>
+  		<input type="radio" id="other" name="gender3" value="other3">
+  		<label for="other"> None of them</label><br>
+
+
+  		<p>5.&lt li &gt tag is included in which HTML element ?  </p>
+  		<input type="radio" id="other" name="gender4" value="other4">
+  		<label for="female">  &lt ul &gt</label><br>
+  		<input type="radio" id="other" name="gender4" value="other4">
+  		<label for="other">  &lt ol &gt</label><br>
+  		<input type="radio" id="other" name="gender4" value="other4">
+  		<label for="female"> Both</label><br>
+  		<input type="radio" id="other" name="gender4" value="other4">
+  		<label for="other">None of them</label><br><br>
+
+
+
+
+
+  		<input type="submit" value="Submit" style="background-color: green; color: black; height: 35px; width: 100px" id="submit_button" onclick="myFunction()">
+</form>
+</div>
+
+</div>
+
+	<script>
+		function myFunction(){
+			alert("Your answers were submitted successfully.")
+		}
+	</script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
